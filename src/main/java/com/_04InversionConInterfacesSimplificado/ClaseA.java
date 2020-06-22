@@ -9,9 +9,9 @@ public class ClaseA
 	public static void main (String [] args)
 	{
 		// creacion de objetos de tipo claseB
-		ClaseB claseB = new ClaseB ();
+		ClaseB clase = new ClaseB ();
 
 		// uso de los objetos creados
-		System.out.println(claseB.getInterfaceB());
+		System.out.println(clase.getInterfaceB());
 	}
 }

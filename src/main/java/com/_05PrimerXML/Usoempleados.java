@@ -11,7 +11,7 @@ public class Usoempleados {
    public static void main (String[] args)
    {
       // crear el contexto
-      ClassPathXmlApplicationContext contexto = new ClassPathXmlApplicationContext("applicationContext.xml");
+      ClassPathXmlApplicationContext contexto = new ClassPathXmlApplicationContext("applicationContext01.xml");
       // pedir el bean
       IEmpleados roberto = contexto.getBean("miEmpleado", IEmpleados.class);
       // Usar el bean
